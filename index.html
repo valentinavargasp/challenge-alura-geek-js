@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Alura Geek</title>
+    <link rel="stylesheet" href="css/styles.css" />
+</head>
+
+<body>
+    <header class="header">
+        <h1 class="headerTitle">Alura Geek</h1>
+    </header>
+    <div class="mainContent">
+        <main>
+            <section>
+                <h1 class="sectionTitle">Mis Productos</h1>
+                <div id="productContainer" class="productContainer"></div>
+                <p id="noProductsMessage" class="noProductsMessage" style="display: none">
+                    No se han agregado productos
+                </p>
+            </section>
+            <section>
+                <h2 class="sectionTitle">Agregar Producto</h2>
+                <form id="addProductForm" class="addProductForm">
+                    <label for="productName" class="formLabel">Nombre:</label>
+                    <input type="text" id="productName" class="formInput" required />
+
+                    <label for="productDescription" class="formLabel">Descripción:</label>
+                    <textarea id="productDescription" class="formTextarea" required></textarea>
+
+                    <label for="productPrice" class="formLabel">Precio:</label>
+                    <input type="number" id="productPrice" class="formInput" required />
+
+                    <label for="productImageUrl" class="formLabel">URL de la Imagen:</label>
+                    <input type="url" id="productImageUrl" class="formInput" required />
+
+                    <button type="submit" class="formButton">Agregar Producto</button>
+                </form>
+            </section>
+        </main>
+    </div>
+
+    <footer class="footer">
+        <p class="footerText">© 2024 Alura Geek. Desarrollado por VVP para Alura Latam.</p>
+    </footer>
+
+    <script type="module" src="js/products.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,74 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Consola Retro",
+      "description": "Consola de videojuegos retro con juegos clásicos incorporados.",
+      "price": 99.99,
+      "imageUrl": "./images/consola.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Cámara Polaroid",
+      "description": "Cámara instantánea Polaroid para capturar recuerdos al instante.",
+      "price": 79.99,
+      "imageUrl": "./images/polaroid.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Walkman Vintage",
+      "description": "Reproductor de casetes Walkman en versión vintage.",
+      "price": 49.99,
+      "imageUrl": "./images/walkman.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Teléfono Dial Retro",
+      "description": "Teléfono fijo con marcación de disco, diseño retro elegante.",
+      "price": 69.99,
+      "imageUrl": "./images/telefono.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Teclado Mecánico Vintage",
+      "description": "Teclado mecánico con diseño vintage.",
+      "price": 89.99,
+      "imageUrl": "./images/teclado.jpg"
+    },
+    {
+      "id": 6,
+      "name": "Radio AM/FM Retro",
+      "description": "Radio portátil con sintonización AM/FM y diseño retro clásico.",
+      "price": 39.99,
+      "imageUrl": "./images/teclado.jpg"
+    },
+    {
+      "id": 7,
+      "name": "Impresora Fotográfica Vintage",
+      "description": "Impresora fotográfica con tecnología vintage para imprimir fotos instantáneas.",
+      "price": 129.99,
+      "imageUrl": "./images/Captura.PNG"
+    },
+    {
+      "id": 8,
+      "name": "Reproductor de Vinilos",
+      "description": "Reproductor de vinilos con diseño retro y calidad de sonido excepcional.",
+      "price": 199.99,
+      "imageUrl": "./images/tocadiscos.jpg"
+    },
+    {
+      "id": 9,
+      "name": "Computadora Retro",
+      "description": "Computadora personal con estilo retro, ideal para coleccionistas.",
+      "price": 299.99,
+      "imageUrl": "./images/pc.jpg"
+    },
+    {
+      "id": 10,
+      "name": "Lámpara de Tubo Nixie",
+      "description": "Lámpara decorativa con tubos Nixie, tecnología retro futurista.",
+      "price": 59.99,
+      "imageUrl": "./images/nixie.jpg"
+    }
+  ]
+}

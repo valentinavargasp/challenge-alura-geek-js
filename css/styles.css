@@ -1,0 +1,159 @@
+* {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: #6f42c1;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+.headerTitle {
+    font-size: 2rem;
+    margin: 0;
+    font-weight: bold;
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.sectionTitle {
+    color: #6f42c1;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.productContainer {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.productCard {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: #fff;
+    transition: transform 0.3s ease;
+}
+
+.productCard:hover {
+    transform: translateY(-5px);
+}
+
+.productImage {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.productName {
+    font-size: 1.2rem;
+    margin: 10px 0;
+}
+
+.productDescription {
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.productPrice {
+    font-weight: bold;
+}
+
+.deleteBtn {
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.deleteBtn:hover {
+    background-color: #c82333;
+}
+
+.addProductForm {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    gap: 10px;
+}
+
+.formLabel {
+    font-weight: bold;
+}
+
+.formInput,
+.formTextarea,
+.formButton {
+    width: 100%;
+    padding: 8px;
+    font-size: 1rem;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+.formButton {
+    background-color: #6f42c1;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.formButton:hover {
+    background-color: #5a3ec8;
+}
+
+.noProductsMessage {
+    color: #777;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.mainContent {
+    min-height: calc(100vh - 100px); 
+    padding-bottom: 100px; 
+    box-sizing: border-box;
+}
+
+.footer {
+    background-color: #6f42c1;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+}
+
+
+.footerText {
+    font-size: 0.8rem;
+    margin: 0;
+}
+
+/* media queries*/
+@media (max-width: 768px) {
+    .productContainer {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .productCard {
+        width: 90%;
+        margin-bottom: 20px;
+    }
+}
+
+
